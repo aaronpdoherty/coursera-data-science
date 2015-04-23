@@ -1,0 +1,93 @@
+getwd()
+read.csv("mydata.csv")
+dir()
+read.csv("tc2m_twitter_handles.csv")
+dir()
+getwd()
+myfunction()
+myfunction <- function(x) {#
+	x <- rnorm(100)#
+	mean(y)#
+}
+ls()
+myfunction()
+myfunction <- function(x) {#
+	y <- rnorm(100)#
+	mean(y)#
+}
+myfunction()
+dir()
+ls
+ls()
+second(4)
+ls()
+second(4)
+second <- function(x) {#
+	x + rnorm(length(x))#
+}
+second(4)
+second(4:10)
+x <- 4L
+class(X)
+class(x)
+x <- c(4, "a", TRUE)
+class(x)
+x <- 1:4
+y <- 2:3
+z <- x+y
+z
+x
+y
+z
+dir()
+read.csv("hw1_data.csv" )
+x <- c(1.7, 1, 2)
+class(x)
+y <- c(1.7,2,"a")
+class(y)
+y <- c(TRUE,"a")
+class(y)
+y <- c(TRUE, 1+0i)
+class(y)
+y <- c(1.7,2,1+0i)
+class(y)
+y <- c(1.7,"a",1+0i)
+class(y)
+clear
+clear home
+x <- 0.6
+class(x)
+x <-0:6
+class(x)
+as.numeric(x)
+as.logical(x)
+as.chaaracter(x)
+as.character(x)
+x <- c("s","b","c")
+as.numeric(x)
+x <- list(1,"a", TRUE, 1 + 4i)
+x[[1]]
+x[[2]]
+x[[3]]
+x[[4]]
+m <- matrix(nrow = 2, ncol = 3)
+m
+dim(m)
+m <- matrix(1:6, nrow = 2, ncol = 3)
+m
+m <- 1:10
+m
+dim(m) <- c(2,5)
+m
+x <- 1:3
+y <- 10:12
+cbind(x,y)
+rbind(x,y)
+m <- matrix(x,y)
+x <- factor(c("yes", "yes", "no", "yes", "no"))
+x
+table(x)
+unclass(x)
+x <- factor(c("yes", "yes", "no", "yes", "no"), levels = c("yes", "no"))
+x
+unclass(x)
